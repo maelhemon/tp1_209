@@ -7,11 +7,23 @@
 </head>
 <body>
     <h1>Formulaire de contact</h1>
-    <label for="pseudo">Votre pseudo *</label>
-    <input type="text" id="pseudo" placeholder="Votre pseudo">
+    <label for="pseudo">Votre pseudo* </label>
+    <input type="text" id="pseudo" placeholder="Votre pseudo" required>
     <br>
-    <label for="mot de passe">Votre mot de passe</label>
-    <input type="password"  id="mot de passe" placeholder="Votre mot de passe*">
-
+    <label for="mot de passe">Votre mot de passe* </label>
+    <input type="password"  id="mot de passe" placeholder="Votre mot de passe" required>
+    <label for="e-mail">Votre e-mail* </label>
+    <input type="email"  id="e-mail" placeholder="Votre e-mail" required>
+    <label for="objet du message">Objet du message* </label>
+    <label for="Objet du message * "></label>
+    <select id="objet message"  required>
+        <option value="question">J'ai une question</option>
+        <option value="suggestion">J'ai une suggestion</option>
+        <option value="problème">J'ai un problème</option>
+        <option value="autre">Autre</option>
+    </select>
+    <label for="Votre message">Votre message *</label>
+    <textarea name="message" placeholder="Votre message" required></textarea>
+    
 </body>
 </html>
