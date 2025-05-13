@@ -8,22 +8,43 @@
 <body>
     <h1>Formulaire de contact</h1>
     <label for="pseudo">Votre pseudo* </label>
+    <br>
     <input type="text" id="pseudo" placeholder="Votre pseudo" required>
     <br>
     <label for="mot de passe">Votre mot de passe* </label>
+    <br>
     <input type="password"  id="mot de passe" placeholder="Votre mot de passe" required>
+    <br>
     <label for="e-mail">Votre e-mail* </label>
+    <br>
     <input type="email"  id="e-mail" placeholder="Votre e-mail" required>
+    <br>
     <label for="objet du message">Objet du message* </label>
-    <label for="Objet du message * "></label>
+    <br>
+    <label for="Objet du message">Objet du message *</label>
+    <br>
     <select id="objet message"  required>
         <option value="question">J'ai une question</option>
         <option value="suggestion">J'ai une suggestion</option>
         <option value="problème">J'ai un problème</option>
         <option value="autre">Autre</option>
     </select>
+    <br>
     <label for="Votre message">Votre message *</label>
+    <br>
     <textarea name="message" placeholder="Votre message" required></textarea>
-    
+    <br>
+    <label for="niveau urgence">Niveau d'urgence *</label>
+    <br>
+    <div requi>
+        <input type="radio"  id="Urgent">
+        <label for="urgent">Urgent</label>
+    </div>
+    <br>
+    <input type="checkbox" name="politique de confidentialité">
+    <br>
+    <label for="politique de confidentialité">J'ai lu et j'accepte la <a href="politique.html">politique de confidentialité</a></label>
+    <br>
+    <button id="envoi">Envoyer</button>
 </body>
 </html>
